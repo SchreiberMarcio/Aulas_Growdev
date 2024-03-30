@@ -1,0 +1,48 @@
+.container {
+  width: 100vh;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#square1 {
+  background-color: blue;
+  width: 100vh;
+  height: 100vh;
+  z-index: 1;
+  position: absolute;
+}
+
+#square2 {
+  background-color: red;
+  width: 80vh;
+  height: 80vh;
+  z-index: 2;
+  position: absolute;
+}
+
+#square3 {
+  background-color: black;
+  width: 60vh;
+  height: 60vh;
+  z-index: 3;
+  position: absolute;
+}
+
+#square4 {
+  background-color: green;
+  width: 40vh;
+  height: 40vh;
+  z-index: 4;
+  position: absolute;
+}
+
+#square5 {
+  background-color: yellow;
+  width: 20vh;
+  height: 20vh;
+  z-index: 5;
+  position: absolute;
+}
